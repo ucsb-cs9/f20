@@ -1,6 +1,6 @@
 ---
 title: Info Pages List
-permalink: "/info/"
+permalink: "/info_list/"
 ---
 
 # {{site.course}}, {{site.quarter}}

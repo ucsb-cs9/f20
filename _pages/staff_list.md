@@ -1,6 +1,6 @@
 ---
-title: Staff List
-permalink: "/staff/"
+title: CS56, Fall 2018, pconrad
+permalink: "/staff_list/"
 ---
 
 # {{site.course}}, {{site.quarter}}
