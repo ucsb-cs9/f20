@@ -57,11 +57,11 @@ Your course grade will be determined as follows:
 | Grade Item                        | Percentage of Final Grade |
 |-----------------------------------|---------------------------|
 | Quizzes                           | 35 %                      |
-| Final (Wed 12/16 7:30pm - 9:30pm) | 20 %                      |
+| Final (Wed 12/16, 7:30pm - 9:30pm)| 20 %                      |
 | Homeworks                         | 10 %                      |
 | Labs                              | 35 %                      |
 
-In general, homeworks will be assigned periodically throughout the quarter, and are due in lecture on the due date.
+In general, homeworks will be assigned periodically throughout the quarter and should be completed on Gradescope by the due date.
 
 There will be labs assigned throughout the quarter. Lab sections are available to ask questions and seek assistance. Please be sure to check the due dates for all assignments on the course page and calendar.
 
