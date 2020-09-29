@@ -51,13 +51,27 @@ include:
 timezone: America/Los_Angeles
 
 collections:
-  info:
+  hwk:
     output: true
-    permalink: /info/:path/
+    permalink: /hwk/:path/
+    last_before: false
   lab:
     output: true
     permalink: /lab/:path/
     last_before: false
+  labWIP:
+    output: true
+    permalink: /labWIP/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
 
 
 defaults:
@@ -69,15 +83,39 @@ defaults:
   - 
     scope:
       path: ""
-      type: info
+      type: lectures
     values:
-      layout: default
-  -
+      layout: lecture
+  - 
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
+  - 
     scope:
       path: ""
       type: lab
     values:
       layout: lab
+  - 
+    scope:
+      path: ""
+      type: labWIP
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: default
   -
     scope:
       path: "syllabus.md"
