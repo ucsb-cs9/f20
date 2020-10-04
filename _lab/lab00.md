@@ -165,7 +165,7 @@ In order to create a directory in the Github organization:
 
 * Then click on the "Commit changes" green button to actually upload your file to your repository.
 
-![FileInRepo](fileInRepo.png)
+![fileInRepo](fileInRepo.png)
 
 * Congrats! Your file now lives in your Github repository!
 	* You can re-upload updated versions on Github and all of your previous versions of your work will be saved.
