@@ -150,22 +150,22 @@ In order to create a directory in the Github organization:
 * Navigate to <https://github.com/ucsb-cs9-f20>
 * Click on the "New" Green Button to create a new "repository" (note: you should have a separate repository for each lab assignment).
 
-![newButton](newButton.PNG)
+![newButton](newButton.png)
 
 * From here, you can create your repository.
 * NOTE: Be sure that **"Private"** is selected. The CS 9 course staff can see all private repositories, but other students will not be able to.
 * Name your repository "lab00_[your_UCSBNETID]" - where you will type your actual UCSBNETID.
 
-![createRepo](createRepo.PNG)
+![createRepo](createRepo.png)
 
 * Once your Private repository is created, you can upload your work by clicking on the "uploading an existing file" link in your currently empty repository page.
 * You can drag/drop or navigate to your `lab00.py` file on your computer to upload.
 
-![fileUpload](fileUpload.PNG)
+![fileUpload](fileUpload.png)
 
 * Then click on the "Commit changes" green button to actually upload your file to your repository.
 
-![FileInRepo](fileInRepo.PNG)
+![FileInRepo](fileInRepo.png)
 
 * Congrats! Your file now lives in your Github repository!
 	* You can re-upload updated versions on Github and all of your previous versions of your work will be saved.
