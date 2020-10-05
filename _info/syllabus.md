@@ -13,7 +13,7 @@ Basic Facts
 * **Lecture**: Tu Th 5:00pm-6:15pm
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
-* **Lab** (50 minute lab section): Wednesdays 1pm, 2pm, 3pm
+* **Lab** (50 minute lab section): Wednesdays 1pm, 2pm, 3pm (<https://ucsb.zoom.us/j/84310396074>)
 * **Office Hours**: See <https://ucsb-cs9.github.io/f20/info/office_hours/>
 
 # Required Resources

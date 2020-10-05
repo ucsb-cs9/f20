@@ -17,7 +17,7 @@ Richert Wang
 
 Xiyou Zhou
 
-* Mondays 2 - 3pm
+* Thursdays 12 - 1pm
 * https://ucsb.zoom.us/j/87986437055
 
 
