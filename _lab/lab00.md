@@ -182,6 +182,6 @@ If you already submitted something on Gradescope, it will take you to their "Aut
 
 For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
 
-![Gradescope_results](Gradescope_results.png)
+![Gradescope_results](Gradescope_results.PNG)
 
 If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think about what may have caused the error. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask your TAs or Learning Assistants.
