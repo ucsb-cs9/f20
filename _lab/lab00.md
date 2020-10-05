@@ -174,7 +174,7 @@ In order to create a directory in the Github organization:
 
 The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 9. If you haven’t submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
 
-![Gradescope upload](Gradescope_upload.png)
+![Gradescope_upload](Gradescope_upload.png)
 
 You either can navigate to your file(s) or "drag-and-drop" them into the "Submit Programming Assignment" window.
 
@@ -182,6 +182,6 @@ If you already submitted something on Gradescope, it will take you to their "Aut
 
 For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
 
-![Gradescope results](Gradescope_results.png)
+![Gradescope_results](Gradescope_results.png)
 
 If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think about what may have caused the error. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask your TAs or Learning Assistants.
