@@ -69,7 +69,7 @@ There will be labs assigned throughout the quarter. Lab sections are available t
 
 I will consider late submissions <strong>only</strong> for medical or family emergencies where documentation can be provided. This does not include overwhelming workload from other courses, scheduling conflicts, or vacation plans. The course policy of dropping two lowest homeworks and one quiz is in place to accommodate any unfortunate situation where no form of documentation can be provided.
 
-* There will not be any make ups for quizzes.
+* The lowest quiz score will be dropped. There will not be any make ups for quizzes.
 * Two of the lowest homework scores will be dropped. Late homework submissions will not be accepted. However, even if you know you will not be able to submit a homework on time, I highly encourage you to complete it anyways since the homeworks will help prepare you for the examinations.
 * All labs must be submitted by the due date. Depending on the case, your TA may consider grading your lab with a late penalty (and usually for cases where the submission was done very soon after the deadline). However, this is not an official policy and you risk receiving a zero for a late lab submission. 
 
