@@ -76,7 +76,7 @@ Using the editor of your choice, create a `lab00.py` file in your lab00 director
 
 # Copy the following code template into `lab00.py` and complete the function definitions
 
-We will write four python functions for this lab, which reviews some of the concepts covered in CS 8 and the readings in h00.
+We will write three python functions for this lab, which reviews some of the concepts covered in CS 8 and the readings in h00.
 
 Copy the following code into your `lab00.py` file and complete the function definitions according to the comments (and type your actual name on the first line):
 
