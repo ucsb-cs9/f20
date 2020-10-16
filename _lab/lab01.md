@@ -52,7 +52,7 @@ In addition to your constructor, your class definition should also support "sett
 * `setAge(self, age)`
 * `setName(self, name)`
 
-Each Animal object should be able to call a method `toString` that returns a `str` with all the animal attributes. The string should contain all attributes in the following EXACT format:
+Each Animal object should be able to call a method `toString` that you will implement, which returns a `str` with all the animal attributes. The string should contain all attributes in the following EXACT format:
 
 ```python
 a = Animal("dog", 12.2, 2, "Ruffles")
@@ -78,14 +78,14 @@ The dictionary value will be a list of Animal objects that the AnimalShelter con
 Your code should support the following constructor / methods:
 
 * `__init__(self)` - Constructor that initializes the dictionary structure of the AnimalShelter class. Initially, this dictionary should be empty.
-* `addAnimal(self, animal)` - Adds an Animal object (`animal`) to the AnimalShelter. The inserted Animal object should be added to the of the list of existing animals that are the same species. You may assume that an animal with the same attributes does not already exist in the AnimalShelter when this method is called.
+* `addAnimal(self, animal)` - Adds an Animal object (`animal`) to the AnimalShelter. The inserted Animal object should be added to the end of the list of existing animals that are the same species. You may assume that an animal with the same attributes does not already exist in the AnimalShelter when this method is called.
 * `removeAnimal(self, animal)` - Removes an Animal object (`animal`) from the AnimalShelter if it exists. Your code will need to check and see if the parameter animal object has the same species, name, age, and weight as an existing animal in the AnimalShelter if it is to be removed from the AnimalShelter.
 * `getAnimalsBySpecies(self, species)` - Returns a string of all animals of a certain species. This string should consist of a collection of strings - one line for each animal. <b>Since each animal will be in its own line within a single string, a newline character (`\n`) should be inserted between each line (if applicable) EXCEPT at the very last line where no newline character should exist)</b>. The order of the Animals in this string will be dictated by the order of the Animals in the AnimalShelter's list for the Animal's species. The Animal `toString()` method should be used when constructing this method's return string. If no Animals of the species exist in the AnimalShelter, then this method returns an empty string (`""`).
 * `doesAnimalExist(self, animal)` - Returns True if the parameter `animal` (with matching species, name, age, and weight) exists in the AnimalShelter. Returns False otherwise.
 
 ## `testFile.py` pytest
 
-This file should import your `Animal` and `AnimalShelter` classes so you can write unit tests using pytest to test if your functionality is correct. Think of various scenarios and edge cases when testing your code (provide at least three cases per method for `Animal` and `AnimalShelter`). Even though Gradescope will not use this file when running the automated tests, it is important to provide this file with various test cases (testing is important!!).
+This file should import your `Animal` and `AnimalShelter` classes so you can write unit tests using pytest to test if your functionality is correct. Think of various scenarios and edge cases when testing your code (provide at least three cases (assert statements) per method for `Animal` and `AnimalShelter`). Even though Gradescope will not use this file when running the automated tests, it is important to provide this file with various test cases (testing is important!!).
 
 ## Submission
 
