@@ -1,6 +1,6 @@
 ---
 num: "Lecture 8"
-desc: "Inheritance"
+desc: "Runtime Analysis cont."
 ready: true
 lecture_date: 2020-10-27 17:00:00.00-7:00
 ---

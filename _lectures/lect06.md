@@ -1,6 +1,6 @@
 ---
 num: "Lecture 6"
-desc: "Python Classes cont."
+desc: "Operator Overloading, Inheritance"
 ready: true
 lecture_date: 2020-10-20 17:00:00.00-7:00
 ---
