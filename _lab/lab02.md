@@ -84,7 +84,7 @@ print(c1.getShapeProperties())
 <b> Output:</b>
 
 <tt>
-Shape: CIRCLE, Color: blue, Radius: 2.5, Area: 19.6349375, Perimiter: 15.70795
+Shape: CIRCLE, Color: blue, Radius: 2.5, Area: 19.6349375, Perimeter: 15.70795
 </tt>
 
 <b>Note:</b> The `c1.getShapeProperties()` return value in the example above does not contain a newline character (`\n`) at the end.
@@ -110,7 +110,7 @@ print(s1.getShapeProperties())
 <b> Output:</b>
 
 <tt>
-Shape: SQUARE, Color: blue, Side: 2.5, Area: 6.25, Perimiter: 10.0
+Shape: SQUARE, Color: blue, Side: 2.5, Area: 6.25, Perimeter: 10.0
 </tt>
 
 <b>Note:</b> The `s1.getShapeProperties()` return value in the example above does not contain a newline character (`\n`) at the end.
