@@ -132,7 +132,7 @@ c.setSound("Moo") # Sets a Cow sound attribute to "Moo"
 print(c.getSound()) # I’m an Animal!!! (calls the Animal.getSound method)
 ```
 
-* Note that the Cow’s constructor (`__init__`) was inherited by the class `Cow` as well as the `getAttributes()` method
+* Note that the Cow’s constructor (`__init__`) was inherited from the class `Animal` as well as the `getAttributes()` method
 * Also note that we didn’t need to define the `getSound()` method since it was inherited from `Animal`
 * But in this case, this inherited method may not be what we want.
 * So we can redefine its functionality in the Cow class!
