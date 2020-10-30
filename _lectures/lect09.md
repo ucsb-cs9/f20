@@ -5,6 +5,8 @@ ready: true
 lecture_date: 2020-10-29 17:00:00.00-7:00
 ---
 
+Recorded Lecture: [10_29_20](https://drive.google.com/file/d/1EV1NOgcjfxmUJ0xl1O5xvmN2hsxhf4v9/view?usp=sharing)
+
 # Recursion
 
 * Recursion is when a function contains a call to itself
