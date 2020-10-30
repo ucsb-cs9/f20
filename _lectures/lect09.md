@@ -95,14 +95,14 @@ fib(1) + fib(0) + fib(1)  +  fib(2)
 
 ```
 def binarySearch(intList, item):
-	if len(intList) == 0:
+	if len(intList) == 0: # base case
 		return False
+
+	mid = len(intList) // 2
+	if intList[mid] == item:
+		return True
+	elif item < intList[mid]:
+		return binarySearch(intList[0:mid], item)
 	else:
-		mid = len(intList) // 2
-		if intList[mid] == item:
-			return True
-		elif item < intList[mid]:
-			return binarySearch(intList[:mid], item)
-		else:
-			return binarySearch(intList[mid+1:], item)
+		return binarySearch(intList[mid+1:], item)
 ```
