@@ -122,7 +122,7 @@ Instead of using a recursive solution like the book describes, we will use a Sta
 	* As long as there are items in the Stack, that means there are still positions that have possible directions to check.
 	* If our Stack does not have any items, this implies there are no more positions with directions to check. If we haven't reached our goal, then this implies there is no path from the given starting position to the goal.
 
-## `lab03.py`
+## `lab04.py`
 
 This file will contain a single function definition `solveMaze(maze, startX, startY)`. The `maze` parameter will be the 2D List maze as described above. `startX` and `startY` are the starting coordinates used when traversing the maze (`maze[startX][startY]`). You may assume that `startX` and `startY` position is a valid position (it's contained within the maze and no `+` or `G` value exists in that position in the 2D List).
 
