@@ -61,7 +61,7 @@ Your program will need to traverse the 2D maze given a starting coordinate. As y
 
 **You must implement your traversal in following way**:
 
-* When reaching a certain coordinate, you must check and move counter-clockwise in the following order: **North, then East, then South, then West**
+* When reaching a certain coordinate, you must check and move clockwise in the following order: **North, then East, then South, then West**
 * You will always be given a starting coordinate. This will be the first step taken
 * You will traverse the maze until you reach a goal (`'G'`). Once we reach the goal, our algorithm can stop (no need to keep traversing the maze)
 
