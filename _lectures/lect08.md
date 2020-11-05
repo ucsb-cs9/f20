@@ -70,7 +70,7 @@ print("Time elapsed with DICT (in seconds):", end - start)
 * For this example, since we are looking for the value in the list (without knowing the index), we are checking through the entire WORDLIST for every word in `PeterPan.txt`
 
 * Python dictionaries are efficient when looking up a key value
-	* Dictionary keys are actually stored in an underlying list
+	* Dictionary values are actually stored in an underlying list
 	* Keys are converted into a numerical value, which is passed into a **hash function**
 		* The purpose of the hash function is to output the index for the underlying list based on the key value
 		* We do not have to scan the underlying list structure since a key will always be placed into a specific location in the the underlying list
