@@ -34,7 +34,7 @@ Intermediate topics in Computer Science using the Python programming language. T
 
 ## A few course policies in brief
 
-* If you are registered for another UCSB course that overlaps with this one, you are responsible for any work or material you may miss. Fall 2020 is a remote instruction quarter where the majority of the work can be done asynchronously. The final examination will take place during the final exam window (Wednesday 12/16/20, 7:30 - 9:30 PST).
+* If you are registered for another UCSB course that overlaps with this one, you are responsible for any work or material you may miss. Fall 2020 is a remote instruction quarter where the majority of the work can be done asynchronously. The final examination will take place during the final exam window (Wednesday 12/16/20, 7:30 - 9:30 pm PST).
 * Collaboration is only permitted when specifically allowed for — otherwise, you must do your own work.
 * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest two grades from everyone's homework, and drop the lowest quiz. This way, absences (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
 * We will use the [gradescope system](https://gradescope.com) this quarter for lab submissions, homework assignments, quizzes, and final exam. More instructions on gradescope will be given in lecture and lab assignments.
