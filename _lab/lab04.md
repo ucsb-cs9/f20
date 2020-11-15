@@ -159,6 +159,6 @@ def test_example():
 
 ## Submission
 
-Once you're done with writing your recursive function definitions and tests, submit your `lab04.py`, `Stack.py` and `testFile.py` files to the `Lab04` assignment on Gradescope. There will be various unit tests Gradescope will run to ensure your code is working correctly based on the specifications given in this lab.
+Once you're done with writing your class / function definitions and tests, submit your `lab04.py`, `Stack.py` and `testFile.py` files to the `Lab04` assignment on Gradescope. There will be various unit tests Gradescope will run to ensure your code is working correctly based on the specifications given in this lab.
 
 If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think about what may have caused the error. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask your TAs or Learning Assistants.
