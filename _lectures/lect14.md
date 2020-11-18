@@ -104,6 +104,8 @@ def test_mergeSort():
 * Note that the height (number of levels) of the tree is **log n** (for 8 nodes, we have a height of 3).
 * For each level, the merge step needs to compare `n` elements
 	* So if there are **log n** levels and we need to do `n` comparisons to merge the elements for each level, then we have: **O(n log n)** running time
+* One disadvantage of Merge Sort is it requires O(n) additional space when creating the left and right sublists
+	* Can be problematic if the list we're trying to sort is extremely large
 
 # Quicksort
 * Another divide-and-conquer algorithm
