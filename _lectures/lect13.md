@@ -38,8 +38,8 @@ def selectionSort(aList):
 
 		# swap largest element in correct place
 		temp = aList[fillslot]
-		aList[fillslot] = alist[positionOfMax]
-		alist[positionOfMax] = temp
+		aList[fillslot] = aList[positionOfMax]
+		aList[positionOfMax] = temp
 ```
 ```
 def test_selectionSort():
