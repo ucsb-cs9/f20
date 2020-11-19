@@ -87,7 +87,7 @@ a1 = Apartment(1204.56, 200, 7)
 a2 = Apartment(1000, 100, 9)
 a3 = Apartment(1000, 214, 10)
 a4 = Apartment(300, 112, 3)
-a5 = Apartment(300.50, 250, 2)
+a5 = Apartment(300.52, 250, 2)
 
 apartmentList = [a0, a1, a2, a3, a4, a5]
 
@@ -104,8 +104,8 @@ print(getNthApartment(apartmentList, len(apartmentList)))
 
 <b> Output: </b>
 ```
-(Apartment) Rent: $300.50, Distance From UCSB: 250m, Condition: 2/10
-1st: (Apartment) Rent: $300, Distance From UCSB: 112m, Condition: 3/10, 2nd: (Apartment) Rent: $300.50, Distance From UCSB: 250m, Condition: 2/10, 3rd: (Apartment) Rent: $1000, Distance From UCSB: 100m, Condition: 9/10
+(Apartment) Rent: $300.52, Distance From UCSB: 250m, Condition: 2/10
+1st: (Apartment) Rent: $300, Distance From UCSB: 112m, Condition: 3/10, 2nd: (Apartment) Rent: $300.52, Distance From UCSB: 250m, Condition: 2/10, 3rd: (Apartment) Rent: $1000, Distance From UCSB: 100m, Condition: 9/10
 (Apartment) Rent: $1204.56, Distance From UCSB: 200m, Condition: 3/10
 ```
 
