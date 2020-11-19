@@ -37,9 +37,9 @@ def selectionSort(aList):
 				positionOfMax = location
 
 		# swap largest element in correct place
-			temp = aList[fillslot]
-			aList[fillslot] = alist[positionOfMax]
-			alist[positionOfMax] = temp
+		temp = aList[fillslot]
+		aList[fillslot] = alist[positionOfMax]
+		alist[positionOfMax] = temp
 ```
 ```
 def test_selectionSort():
