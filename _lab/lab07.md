@@ -103,7 +103,7 @@ Price: $8.00\n"
 `CustomPizza` with a list of toppings example (note that each topping will be indented with a tab):
 
 ```python
-cp1 = CustomPizza("S")
+cp1 = CustomPizza("L")
 cp1.addTopping("extra cheese")
 cp1.addTopping("sausage")
 
@@ -129,7 +129,7 @@ Also similar to the `CustomPizza` class, `SpecialtyPizza` will use the size to s
 
 Unlike custom pizzas, specialty pizzas do not have a list of toppings associated with it, but do have a unique name that will be displayed when getting details for this pizza. This class should also have its own `getPizzaDetails` method described below:
 
-* `__getPizzaDetails(self)` - this method will construct and return a string containing the details of the `SpecialtyPizza` object including the size and name of the `SpecialtyPizza`. An example (with escape characters shown for formatting) is given below. When constructing your string, please follow the **EXACT** format since this is what Gradescope will expect
+* `getPizzaDetails(self)` - this method will construct and return a string containing the details of the `SpecialtyPizza` object including the size and name of the `SpecialtyPizza`. An example (with escape characters shown for formatting) is given below. When constructing your string, please follow the **EXACT** format since this is what Gradescope will expect
 
 A sample output test for `getPizzaDetails()`:
 
@@ -163,7 +163,7 @@ The time format will be stored as an int in a 24-hour time format. For example, 
 In addition to the constructor, getters / setters for the time attribute, the ability to add Pizza objects to the order, as well as a method to construct a string representing the order details will need to be implemented:
 
 * `getTime(self)`
-* `setTime(self)`
+* `setTime(self, time)`
 * `addPizza(self, pizza)` - will add the Pizza object to the end of the Python List
 * `getOrderDescription(self)` - constructs and returns a string containing the time of the order, all information for each pizza in the order, as well as the total order price. Since we're storing various Pizza objects in this class, we can utilize polymorphism and simply call the `getPizzaDetails()` method on the Pizza objects when constructing the string for our entire order, as well as `getPrice()` to compute the `PizzaOrder` total price
 
