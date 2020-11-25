@@ -54,7 +54,7 @@ Your Pizza class definition should also support the "getter" and "setter" method
 * `getPrice(self)`
 * `setPrice(self, price)`
 * `getSize(self)`
-* `setSize(self)`
+* `setSize(self, size)`
 
 # CustomPizza.py and SpecialtyPizza.py
 
