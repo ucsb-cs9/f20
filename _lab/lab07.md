@@ -113,7 +113,7 @@ Size: L\n\
 Toppings:\n\
 \t+ extra cheese\n\
 \t+ sausage\n\
-Price: $9.00\n"
+Price: $14.00\n"
 ```
 
 ## SpecialtyPizza.py
