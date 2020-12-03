@@ -65,8 +65,9 @@ Your Card class definition should also support the "getter" and "setter" methods
 * `setLeft(self, left)`
 * `getRight(self)`
 * `setRight(self, right)`
+* `__str__()` - the overloaded to-string operator should return "S A | 1" if the `Card` is an Ace of Spades and has no duplicates
 
-Lastly, your Card class *can* overload the `>`, `<`, and `==` operators. This is optional, but it can be helpful when inserting cards into their proper position within the `PlayerHand` Binary Search Tree. In this context, a `Card` should first be compared by its `rank`. For our purposes, we treat A (Ace) as the smallest, and K (King) as the largest. If the `rank` is equal, we then compare the `suit` of the cards, where C (Club) < D (Diamond) < H (Heart) < S (Spade). By this logic, `==` should only return True if both the `suit` and the `rank` are equal.
+Lastly, your Card class *can* overload the `>`, `<`, and `==` operators. This is optional, but it can be helpful when inserting cards into their proper position within the `PlayerHand` Binary Search Tree. In this context, a `Card` should first be compared by its `rank`. For our purposes, we treat A (Ace) as the smallest, and K (King) as the largest. If the `rank` is equal, we then compare the `suit` of the cards, where C (Club) < D (Diamond) < H (Heart) < S (Spade). By this logic, `==` should only return True if both the `suit` and the `rank` are equal. You Should also make sure that you handle the `suit` and `rank` of your `Card` case-insensitively, meaning that `Card('s', 'a')`, `Card('S', 'A')`, or `Card('s', 'A')` are all valid inputs and should be handled as the same card.
 
 # PlayerHand.py
 
@@ -77,7 +78,7 @@ The `PlayerHand.py` file will contain the definition of a `PlayerHand` class. Th
 In addition to the construction of the MinHeap in this class, these methods are required to be implemented:
 
 * `getTotalCards()` - returns the total number of cards in hand
-* `getMin()` - returns the card with the lowest value from the player's hand
+* `getMin()` - returns the card with the lowest value from the player's hand. Returns `None` if there is no card in hand
 * `getSuccessor(suit, rank)` - attempts to finds the Card with the `suit` and `rank`, and returns the card with the next greatest value. Returns `None` if there is no card with the specified `suit` and `rank`, or if the Card is the maximum and has no successor.
 * `put(suit, rank)` - this adds a card with the specified `suit` and `rank` to the BST. If that Card already exists in the BST, increment the `count` for that Card.
 * `delete(suit, rank)` - attempts to find the Card with the specified `suit` and `rank`, and decrements the Card `count`. If the count is `0` after decrementing the `count`, remove the node from the BST entirely. Returns `True` if the Card was successfully removed or decremented, and `False` if the card was not present in the BST.
@@ -95,13 +96,15 @@ hand.put('S', '2')
 hand.put('C', 'Q')
 hand.put('H', '7')
 hand.put('S', 'K')
+hand.put('C', 'K')
 
 assert hand.inOrder() == \
-"C Q | 1\n\
-D A | 1\n\
-H 7 | 1\n\
+"D A | 1\n\
 S 2 | 1\n\
-S K | 2\n"
+H 7 | 1\n\
+C Q | 1\n\
+C K | 1\n\
+S K | 2\n\"
 ```
 
 An example of the `preOrder()` string format is given below:
@@ -113,13 +116,15 @@ hand.put('S', '2')
 hand.put('C', 'Q')
 hand.put('H', '7')
 hand.put('S', 'K')
+hand.put('C', 'K')
 
 assert hand.preOrder() == \
 "D A | 1\n\
-C Q | 1\n\
 S K | 2\n\
 S 2 | 1\n\
-H 7 | 1\n"
+C Q | 1\n\
+H 7 | 1\n\
+C K | 1\n\"
 ```
 
 Other than the required methods, feel free to implement any helper methods that you think are useful in your implementation. The automated tests will test only your implementation of the required methods by creating a `PlayerHand` containing various `Cards` with different `suit` and `rank` attributes. The `delete()` and `put()` methods will be run, with `get()`, `inOrder()`, and `preOrder()` being used to verify that the `PlayerHand` is fully functional. You should write similar tests to confirm the BST is working properly.
