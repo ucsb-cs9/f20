@@ -46,8 +46,7 @@ def __str__(self):
 
 ```
 def __add__(self, rhs):
-	''' Takes two students and returns a list containing these two
-		students '''
+	''' Takes two students and returns a list containing these two students '''
     return [self, rhs]
 ```
 ```

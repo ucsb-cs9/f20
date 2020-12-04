@@ -17,10 +17,10 @@ The general rule of exception handling is:
 ```
 while True:
     try:
-            x = int(input("Enter an int: ")) # input() prompts user for input
+        x = int(input("Enter an int: ")) # input() prompts user for input
         break # breaks out of the current loop
     except Exception:
-            print("Input was not a number type. Enter a int: ")
+        print("Input was not a number type. Enter a int: ")
     print("Let's try again...")
 print(x)
 print("Resuming execution")
@@ -42,10 +42,10 @@ Let’s slightly modify our code so another type of exception (`ZeroDivisionErro
 while True:
     try:
         x = int(input("Enter an int: "))
-            print(x/0)
+        print(x/0)
         break
     except ZeroDivisionError:
-            print("Can't divide by zero - enter an int: ")
+        print("Can't divide by zero - enter an int: ")
     except Exception:
         print("Input was not a number type. Enter a int: ")
     print("Let's try again...")
@@ -117,14 +117,14 @@ Program will eventually crash with an error message (like we’ve seen)
 class Student:
     ''' Student class type that contains attributes for all students '''
     def setName(self, name):
-            self.name = name
+        self.name = name
 
     def setPerm(self, perm):
         self.perm = perm
 
     def printAttributes(self):
-            print("Student name: {}, perm: {}" \
-              .format(self.name, self.perm))
+        print("Student name: {}, perm: {}" \
+        .format(self.name, self.perm))
 
 s = Student()
 s.setName("Chris Gaucho")
@@ -144,8 +144,8 @@ s.printAttributes()
 
 ```
 def __init__(self):
-        self.name = None
-        self.perm = None
+    self.name = None
+    self.perm = None
 
 s = Student()
 s.printAttributes()
@@ -157,8 +157,8 @@ s.printAttributes()
 
 ```
 def __init__(self, name, perm):
-        self.name = name
-        self.perm = perm
+    self.name = name
+    self.perm = perm
 
 s = Student("Richert", 1234567)
 s.printAttributes()
