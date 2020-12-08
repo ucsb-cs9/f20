@@ -47,7 +47,7 @@ The `Card.py` file will contain the definition of a `Card` class. The `Card` cla
 * `right` - a reference to the right child of a card in the BST, `None` if it has no right child
 * `count` - an integer representing the amount of times this card appears in the BST. `1` by default, but it can be greater since your implementation should support duplicate cards
 
-You will write a constructor that allows the user to construct a `Card` object by passing in values for the suit and rank. Your constructor should also create the `count` attribute and initialize it to 0, as well as create the `parent`, `left`, and `right` attributes initialized to `None`.
+You will write a constructor that allows the user to construct a `Card` object by passing in values for the suit and rank. Your constructor should also create the `count` attribute and initialize it to `1`, as well as create the `parent`, `left`, and `right` attributes initialized to `None`.
 
 * `__init__(self, suit, rank)`
 
