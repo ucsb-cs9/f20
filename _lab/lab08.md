@@ -41,7 +41,7 @@ You should organize your lab work in its own directory. This way all files for a
 The `Card.py` file will contain the definition of a `Card` class. The `Card` class will hold information about the cards (`suit` and `rank`), and for simplicity, it will also double as a node in our `PlayerHand` BST. We will define the Card attributes as follows:
 
 * `suit` - string value that distinguishes what suit that card is: `C` (club), `D` (diamond), `H` (heart), or `S` (spade)
-* `rank` - string value to distinguish the rank of the card (in ascending value): `A` (ace), `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `J` (Jack), `Q` (Queen), `K` (King). Assume there is no Joker
+* `rank` - string value to distinguish the rank of the card (in ascending value): `A` (ace), `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `J` (Jack), `Q` (Queen), `K` (King). Assume there is no Joker
 * `parent` - a reference to the parent node of a card in the BST, `None` if it has no parent (aka, it is the root)
 * `left` - a reference to the left child of a card in the BST, `None` if it has no left child
 * `right` - a reference to the right child of a card in the BST, `None` if it has no right child
