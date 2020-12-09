@@ -65,7 +65,7 @@ Your Card class definition should also support the following "getter" and "sette
 * `setLeft(self, left)`
 * `getRight(self)`
 * `setRight(self, right)`
-* `__str__(self)` - the overloaded to-string operator. For example, it should return the string `"S A | 1"` if the `Card` is an Ace of Spades and has no duplicates
+* `__str__(self)` - the overloaded to-string operator. For example, it should return the string `"S A | 1\n"` if the `Card` is an Ace of Spades and has no duplicates
 
 Lastly, your Card class *can* overload the `>`, `<`, and `==` operators. This is optional, but it can be helpful when inserting cards into their proper position within the `PlayerHand` BST. In this context, a `Card` should first be compared by its `rank`. For our purposes, we treat `A` (Ace) as the smallest, and `K` (King) as the largest. If the `rank` is equal, we then compare the `suit` of the cards, where `C` (Club) < `D` (Diamond) < `H` (Heart) < `S` (Spade). By this logic, `==` should only return `True` if both the suit and the rank are equal. **Note:** you should also make sure that you handle the `suit` and `rank` of your `Card` case-insensitively, meaning that `Card('s', 'a')`, `Card('S', 'A')`, or `Card('s', 'A')` are all valid inputs and should be handled as the same card.
 
