@@ -113,7 +113,7 @@ Topics
       * Tree traversals: pre, in, post order traversals
    * Binary Search Trees
       * BST property and how insertion order affects the structure
-      * Understanding various BST methods (put, get, delete, ...)
+      * Understanding implementation on various BST methods (put, get, delete, ...)
 
 Where to go from here?
    * At UCSB, there are CoE CS courses
