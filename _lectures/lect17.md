@@ -51,7 +51,7 @@ class BinaryTreeNode:
 		if self.rightChild == None:
 			self.rightChild = BinaryTreeNode(newNode)
 		else:
-			t = BinaryTreeNode(value)
+			t = BinaryTreeNode(newNode)
 			t.rightChild = self.rightChild # Links the right sub tree
 			self.rightChild = t
 
