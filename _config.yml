@@ -5,33 +5,32 @@ plugins:
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 url: https://ucsb-cs9.github.io
-baseurl: "/f20"
+baseurl: "/w21"
 
 course: "CS 9"
-qtr: "F20"
+qtr: "W21"
 instructor: "Richert Wang"
-quarter: "Fall 2020"
+quarter: "Winter 2021"
 piazza_url: 
 gauchospace_course_page:
 gradescope_class_url:
 
-github_url: https://github.com/ucsb-cs9/f20
+github_url: https://github.com/ucsb-cs9/w21
 
 start_week: 0
-start_date: 2020-09-27 00:00:00.00-7:00
-num_weeks: 11
+start_date: 2021-01-03 00:00:00.00-7:00
+num_weeks: 10
 extra_exam_week: true
 
 cal_dates: >                                                                    
   [                                                                            
-    {"label":"F20 1st day of instruction", "date":"2020-10-01" },
-    {"label":"Veterans' Day Holiday", "date":"2020-11-11" },
-    {"label":"Thanksgiving Holiday", "date":"2020-11-26" },
-    {"label":"Thanksgiving Holiday", "date":"2020-11-27" },    
-    {"label":"F20 instruction ends", "date":"2020-12-11" },                    
-    {"label":"F20 finals start", "date":"2020-12-12" },                        
-    {"label":"F20 finals end", "date":"2020-12-18" },                          
-    {"label":"F20 qtr ends", "date":"2020-12-18" }                              
+    {"label":"W21 1st day of instruction", "date":"2021-01-04" },
+    {"label":"MLK Jr. Holiday", "date":"2021-01-18" },
+    {"label":"President's Day Holiday", "date":"2021-02-15" },
+    {"label":"W21 instruction ends", "date":"2021-03-12" },                    
+    {"label":"F20 finals start", "date":"2021-03-13" },                        
+    {"label":"F20 finals end", "date":"2021-03-19" },                          
+    {"label":"F20 qtr ends", "date":"2021-03-19" }                              
   ]
 
 kramdown:

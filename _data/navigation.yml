@@ -19,13 +19,13 @@ home:
    baseurl: /
 
 offerings:
-   title: "f20"
+   title: "w21"
    url: /	
-   baseurl: /f20
+   baseurl: /w21
    items:
-      - title: "f20"
+      - title: "w21"
         url: /
-        baseurl: /f20
+        baseurl: /w21
 
 offering_links:
    - title: Cal
@@ -33,5 +33,5 @@ offering_links:
      description: "Assignment Calendar"
    - title: Github
      dropdown:
-         - title: f20
-           url: https://github.com/ucsb-cs9/f20
+         - title: w21
+           url: https://github.com/ucsb-cs9/w21

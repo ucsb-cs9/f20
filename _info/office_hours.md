@@ -9,36 +9,40 @@ ready: true
 # Instructor
 Richert Wang
 
-* Tuesdays 4pm - 4:50pm
-* Thursdays 6:30pm - 7:30pm
+* Tuesdays 3:30pm - 4:30pm
+* Thursdays 1:00pm - 2:00pm
 * Note: Instructor office hours will use the same zoom link as CS 9 lectures.
 
 # TAs
 
-Xiyou Zhou
-
-* Thursdays 12 - 1pm
-* https://ucsb.zoom.us/j/87986437055
-
-
 Alon Albalak
 
-* Thursdays 2 - 4pm
-* https://ucsb.zoom.us/j/87986437055
+* TBD
+* https://ucsb.zoom.us/j/89358685000
+
+Andrew Zhang
+
+* TBD
+* https://ucsb.zoom.us/j/89358685000
 
 # Learning Assistants
 
-Helen Huang
+Jared Flores
 
-* Fridays 12 - 1pm
-* https://ucsb.zoom.us/j/87986437055
+* TBD
+* https://ucsb.zoom.us/j/89358685000
 
 Gautam Mundewadi
 
-* Tuesdays 10am - 12pm
-* https://ucsb.zoom.us/j/87986437055
+* TBD
+* https://ucsb.zoom.us/j/89358685000
 
-Tina Shi
+Ari Polakof
 
-* Wednesdays 4 - 5pm
-* https://ucsb.zoom.us/j/87986437055
+* TBD
+* https://ucsb.zoom.us/j/89358685000
+
+Kevin Villanueva
+
+* TBD
+* https://ucsb.zoom.us/j/89358685000

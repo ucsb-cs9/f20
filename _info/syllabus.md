@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 9, Fall 2020"
+title: "Syllabus, CMPSC 9, Winter 2021"
 layout: handout
 ready: true
 ---
@@ -7,14 +7,14 @@ ready: true
 Basic Facts
 -----------
 
-* **Course Web Site**: <https://ucsb-cs9.github.io/f20/>
+* **Course Web Site**: <https://ucsb-cs9.github.io/w21/>
 * **Instructor**:  [Richert Wang](http://www.cs.ucsb.edu/~richert)
-   * Email is richert@ucsb.edu, BUT please use [Piazza](https://piazza.com/ucsb/fall2020/cs9) for course related communication.
-* **Lecture**: Tu Th 5:00pm-6:15pm
+   * Email is richert@ucsb.edu, BUT please use [Piazza](https://piazza.com/ucsb/winter2021/181c9) for course related communication.
+* **Lecture**: Tu Th 2:00pm-3:15pm
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
-* **Lab** (50 minute lab section): Wednesdays 1pm, 2pm, 3pm (<https://ucsb.zoom.us/j/84310396074>)
-* **Office Hours**: See <https://ucsb-cs9.github.io/f20/info/office_hours/>
+* **Lab** (50 minute lab section): Wednesdays 9am, 10am, 11am, 12pm, 1pm (<https://ucsb.zoom.us/j/89358685000>)
+* **Office Hours**: See <https://ucsb-cs9.github.io/w21/info/office_hours/>
 
 # Required Resources
 
@@ -34,7 +34,7 @@ Intermediate topics in Computer Science using the Python programming language. T
 
 ## A few course policies in brief
 
-* If you are registered for another UCSB course that overlaps with this one, you are responsible for any work or material you may miss. Fall 2020 is a remote instruction quarter where the majority of the work can be done asynchronously. The final examination will take place during the final exam window (Wednesday 12/16/20, 7:30 - 9:30 pm PST).
+* If you are registered for another UCSB course that overlaps with this one, you are responsible for any work or material you may miss. Fall 2020 is a remote instruction quarter where the majority of the work can be done asynchronously. The final examination will take place during the final exam window (Tuesday 3/16/21, 4:00 - 6:00pm PST).
 * Collaboration is only permitted when specifically allowed for — otherwise, you must do your own work.
 * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest two grades from everyone's homework, and drop the lowest quiz. This way, absences (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
 * We will use the [gradescope system](https://gradescope.com) this quarter for lab submissions, homework assignments, quizzes, and final exam. More instructions on gradescope will be given in lecture and lab assignments.
@@ -56,10 +56,10 @@ Your course grade will be determined as follows:
 
 | Grade Item                        | Percentage of Final Grade |
 |-----------------------------------|---------------------------|
-| Quizzes                           | 35 %                      |
-| Final (Wed 12/16, 7:30pm - 9:30pm)| 20 %                      |
+| Quizzes                           | 40 %                      |
+| Final (Tues 3/16, 4:00pm - 6:00pm)| 20 %                      |
 | Homeworks                         | 10 %                      |
-| Labs                              | 35 %                      |
+| Labs                              | 30 %                      |
 
 In general, homeworks will be assigned periodically throughout the quarter and should be completed on Gradescope by the due date.
 
@@ -67,7 +67,7 @@ There will be labs assigned throughout the quarter. Lab sections are available t
 
 # Late work
 
-I will consider late submissions <strong>only</strong> for medical or family emergencies where documentation can be provided. This does not include overwhelming workload from other courses, scheduling conflicts, or vacation plans. The course policy of dropping two lowest homeworks and one quiz is in place to accommodate any unfortunate situation where no form of documentation can be provided.
+I will consider late submissions <strong>only</strong> for medical or family emergencies **where documentation can be provided**. This does not include overwhelming workload from other courses, scheduling conflicts, or vacation plans. The course policy of dropping two lowest homeworks and one quiz is in place to accommodate any unfortunate situation where no form of documentation can be provided.
 
 * The lowest quiz score will be dropped. There will not be any make ups for quizzes.
 * Two of the lowest homework scores will be dropped. Late homework submissions will not be accepted. However, even if you know you will not be able to submit a homework on time, I highly encourage you to complete it anyways since the homeworks will help prepare you for the examinations.
